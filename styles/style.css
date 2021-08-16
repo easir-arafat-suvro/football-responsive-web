@@ -65,7 +65,7 @@ body {
 
 .live-watch-btn {
     background-color: #E02C6D;
-    width: 180px;
+    width: 146px;
     height: 44px;
     border-radius: 3px;
     margin-left: 20px;
@@ -125,4 +125,62 @@ body {
 }
 .blog-detail{
     padding: 0 15px;
+}
+
+/* ------------ highlights area ------------- */
+
+.highlights{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 165px 0 60px 0;
+    /* border: 1px solid gray; */
+    grid-gap: 10px;
+}
+
+.highlight-detail h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.highlight-detail p{
+    margin-bottom: 34px;
+}
+
+.live-watch-btn-2 {
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;    
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+.highlight-image, .highlight-detail {
+    width: 567px;
+    height: 427px;
+}
+
+.highlight-detail{
+    width: 470px;
+    height: 309px;
+    
+}
+.highlight-image img{
+    width: 95%;
+    margin-top: 15px;
+}
+
+/*------------ footer section -----------*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.logo img{
+    width: 484px;
+    height: 110px;
+    
 }
