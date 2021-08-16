@@ -10,10 +10,17 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* --------  Navigation Bar --------- */
 
 .banner-background{
     background-color: #2D25A0;
+    width: 1550px;
     height: 677px;
     padding: 42px 200px;
 }
@@ -37,7 +44,7 @@ body{
 }
 
 .menu-btn a, .login-btn a, .live-watch-btn {
-    font-size: 1vw;
+    font-size: 20px;
     line-height: 43px;
 }
 
@@ -56,7 +63,7 @@ body{
 
 .live-watch-btn {
     background-color: #E02C6D;
-    width: 168px;
+    width: 180px;
     height: 44px;
     border-radius: 3px;
     margin-left: 20px;
