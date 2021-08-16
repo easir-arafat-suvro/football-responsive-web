@@ -10,7 +10,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-header {
+body {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -22,10 +22,10 @@ header {
     background-color: #2D25A0;
     width: 1550px;
     height: 677px;
-    padding: 42px 200px;
+    padding: 42px 100px;
 }
 
-.banner-background a, p {
+.banner-background a, .banner-background p {
     color: white;
     text-decoration: none;
     margin: 20px;
@@ -35,6 +35,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
+    padding-left: 80px;
 }
 
 .menu-btn {
@@ -52,6 +53,7 @@ header {
     display: flex;
     justify-content:flex-end;
     text-align: center;
+    padding-right: 80px;
 }
 
 .login-btn a{
@@ -74,7 +76,7 @@ header {
 .banner{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 205px;
+    grid-column-gap: 5px;
 }
 
 .live-watch-heading{
@@ -83,14 +85,43 @@ header {
     width: 500px;
     font-size: 64px;
     font-weight: 700;
+    /* padding-left: 50px; */
 
 }
 
 .palyer-image{
     display: flex;
     justify-content: flex-end;
+    padding-right: 150px;
 }
 
+.live-watch{
+    padding-left: 80px;
+    margin-top: 50px;
+}
+
+.palyer-image img{
+    /* padding-left: 50px; */
+}
 .live-watch, .palyer-image{
     margin-top: 50px;
+}
+
+/* ---------- blogs ------------- */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.player{
+    border: 2px solid red;
+    width: 330px;
+    height: 479px;
+}
+
+.blog-image img{
+    width: 300px;
+    padding: 15px;
 }
