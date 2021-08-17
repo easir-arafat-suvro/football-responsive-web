@@ -266,25 +266,29 @@ footer{
 
     .highlights {
         grid-template-columns: 1fr;
-        padding: 65px;
+        padding: 0 ;
     }
     .highlight-detail{
-        width: 329px;
-        height: 299px;
+        width: 310px;
+        height: 380px;
+        padding: 0 10px;
     }
 
     .highlight-detail h1{
         font-size: 30px;
+        margin-bottom: 0px;
     }
 
     .highlight-detail p {
         font-size: 16px;
+        margin-bottom: 20px;
+        
     }
 
     .highlight-image{
-        width: 328px;
-        height: 248px;
-        margin: 55px 0 20px;
+        width: 329px;
+        height: 250px;
+        margin: 5px 0 20px;
     }
 
     .highlight-image img {
@@ -300,4 +304,7 @@ footer{
         display: none;
     }
 
+
+    * tablet devices */
+/* @media only screen and (min-width: 688px) and (max-width:992px) {} */
 }
