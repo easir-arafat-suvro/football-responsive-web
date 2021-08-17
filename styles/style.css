@@ -192,24 +192,27 @@ footer{
     margin: 5px;
 }
 
-/* ------------- media quaries ------------------ */
+/* ============ media quaries ========== */
 
-/* --- mobile devices --- */
+/* ------------------- 
+    mobile devices 
+   ----------------- */
 
 @media only screen and (max-width:688px) {  
     
-    /* navigaion */
+    /*--------- navigaion --------*/
 
     .menu-bar {
         display: grid;
         grid-template-columns: 1fr;
     }
+
     .login-btn{
         padding: 0;
         margin-right: 5px;
     }
 
-    /* Banner */
+    /* ---------Banner ----------*/
 
     .banner-background{
         width: 100%;
@@ -230,8 +233,7 @@ footer{
 
     .live-watch-heading{
         width: 278px;
-        height: 138px;
-        
+        height: 138px;        
     }
 
     .live-watch-heading p {
@@ -250,15 +252,14 @@ footer{
     }
 
     .palyer-image img{
-        width: 90%;
-        
+        width: 90%;        
     }
 
     .menu-btn{
         display: none;
     }
 
-    /* Blogs */
+    /*---------- Blogs ---------*/
 
     .blogs {       
         grid-template-columns: 1fr;
@@ -268,6 +269,7 @@ footer{
         grid-template-columns: 1fr;
         padding: 0 ;
     }
+
     .highlight-detail{
         width: 310px;
         height: 360px;
@@ -281,8 +283,7 @@ footer{
 
     .highlight-detail p {
         font-size: 16px;
-        margin-bottom: 20px;
-        
+        margin-bottom: 20px;        
     }
 
     .highlight-image{
@@ -295,7 +296,7 @@ footer{
         width: 100%;
     }
 
-    /* footer */
+    /*----------- footer---------- */
 
     footer{
         width: 265px;
@@ -305,10 +306,108 @@ footer{
     footer .logo img{
         width: 100%;
     }
-
-    /* tablet devices */
-
-
-@media only screen and (min-width: 688px) and (max-width:992px) {}
-
 }
+
+    /*-------------------- 
+        tablet devices 
+    ---------------------*/
+
+
+    @media only screen and (min-width: 688px) and (max-width:992px) { 
+
+         /* ------------navigaion----------- */
+
+        .menu-bar {
+            display: grid;
+            grid-template-columns: 1fr 192px;
+            padding: 45px;
+        }
+        .menu-bar a {
+            margin: 5px;
+        }
+        .login-btn{
+            padding: 0;
+        }
+    
+        /* ------------Banner----------- */
+    
+        .banner-background{
+            width: 100%;
+            padding: 0 0px;
+            margin: 0;
+        }
+    
+        .live-watch{
+            padding: 0 0 0 45px;
+        }
+    
+        .live-watch-heading{
+            width: 378px;
+            height: 138px;
+            
+        }
+    
+        .live-watch-heading p {
+            font-size: 45px; 
+            margin: 0;
+        }
+        
+        .live-watch-btn{
+            margin: 50px 0 0 0;
+        }
+    
+        .palyer-image {
+            width: 329px;
+            height: 260px;
+            padding: 0;
+        }
+    
+        .palyer-image img{
+            width: 90%;            
+        }    
+          
+        /* ------------Blogs -----------*/
+    
+        .blogs {       
+            grid-template-columns: 1fr 1fr;
+        }
+    
+        .highlights {
+            padding: 0px ;
+        }
+        .highlight-detail{
+            width: 310px;
+            padding: 0 5px;
+        }
+    
+        .highlight-detail h1{
+            font-size: 25px;
+            margin-bottom: 0px;
+        }
+    
+        .highlight-detail p {
+            font-size: 16px;
+        }
+    
+        .highlight-image{
+            width: 329px;
+            height: 250px;
+            margin: 5px 0 20px;
+            padding-top: 15px;
+        }
+    
+        .highlight-image img {
+            width: 100%;
+        }
+    
+        /* ---------footer-------- */
+    
+        footer{
+            width: 400px;
+            height: 135px;
+        }
+    
+        footer .logo img{
+            width: 100%;
+        }}
+        
