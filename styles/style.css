@@ -195,7 +195,18 @@ footer{
 
 /* --- mobile devices --- */
 
-@media only screen and (max-width:688px) {    
+@media only screen and (max-width:688px) {  
+    
+    /* navigaion */
+    .menu-bar {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .login-btn{
+        margin-right: 30px;
+    }
+
+    /* Banner */
 
     .banner-background{
         width: 100%;
