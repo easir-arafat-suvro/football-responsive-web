@@ -182,5 +182,11 @@ footer{
 .logo img{
     width: 484px;
     height: 110px;
-    
+}
+
+.icon-size{
+    color: grey;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 5px;
 }
