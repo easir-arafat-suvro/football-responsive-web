@@ -7,6 +7,7 @@
 ----------------------------- */
 body{
     margin: 0;
+    /* padding: 0; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -110,13 +111,14 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     margin-top: 60px;
+    justify-items: center;
 }
 
-.player{
-    /* border: 2px solid red; */
+.player {
     width: 330px;
     height: 474px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   
 }
 
 .blog-image img{
@@ -133,7 +135,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 165px 0 60px 0;
-    /* border: 1px solid gray; */
     grid-gap: 10px;
 }
 
@@ -198,19 +199,21 @@ footer{
 @media only screen and (max-width:688px) {  
     
     /* navigaion */
+
     .menu-bar {
         display: grid;
         grid-template-columns: 1fr;
     }
     .login-btn{
-        margin-right: 30px;
+        padding: 0;
+        margin-right: 5px;
     }
 
     /* Banner */
 
     .banner-background{
         width: 100%;
-        padding: 0;
+        padding: 0 0px;
         margin: 0;
     }
 
@@ -218,12 +221,10 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
         flex-direction: column;
-        /* justify-content: flex-start; */
-        /* align-items: center; */
     }
 
     .live-watch{
-        padding: 0 190px;
+        padding: 0 0 0 45px;
         margin: 0px;
     }
 
@@ -245,11 +246,11 @@ footer{
     .palyer-image {
         width: 329px;
         height: 260px;
-        padding-left: 140px;
+        padding: 0 0 0 0;
     }
 
     .palyer-image img{
-        width: 100%;
+        width: 90%;
         
     }
 
@@ -257,7 +258,46 @@ footer{
         display: none;
     }
 
-    .menu-btn{
+    /* Blogs */
+
+    .blogs {       
+        grid-template-columns: 1fr;
+    }
+
+    .highlights {
+        grid-template-columns: 1fr;
+        padding: 65px;
+    }
+    .highlight-detail{
+        width: 329px;
+        height: 299px;
+    }
+
+    .highlight-detail h1{
+        font-size: 30px;
+    }
+
+    .highlight-detail p {
+        font-size: 16px;
+    }
+
+    .highlight-image{
+        width: 328px;
+        height: 248px;
+        margin: 55px 0 20px;
+    }
+
+    .highlight-image img {
+        width: 100%;
+    }
+
+
+
+    /* display off */
+
+   
+    footer {
         display: none;
     }
+
 }
