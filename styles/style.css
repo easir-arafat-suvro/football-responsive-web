@@ -190,3 +190,63 @@ footer{
     font-weight: 700;
     margin: 5px;
 }
+
+/* ------------- media quaries ------------------ */
+
+/* --- mobile devices --- */
+
+@media only screen and (max-width:688px) {    
+
+    .banner-background{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        /* align-items: center; */
+    }
+
+    .live-watch{
+        padding: 0 190px;
+        margin: 0px;
+    }
+
+    .live-watch-heading{
+        width: 278px;
+        height: 138px;
+        
+    }
+
+    .live-watch-heading p {
+        font-size: 36px; 
+        margin: 0;
+    }
+    
+    .live-watch-btn{
+        margin: 50px 0 0 0;
+    }
+
+    .palyer-image {
+        width: 329px;
+        height: 260px;
+        padding-left: 140px;
+    }
+
+    .palyer-image img{
+        width: 100%;
+        
+    }
+
+    .menu-btn{
+        display: none;
+    }
+
+    .menu-btn{
+        display: none;
+    }
+}
